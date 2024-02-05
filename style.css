@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: bold;
+  src: url("./Fonts/6594259965ca848a371eee1a_MABRYPRO-BOLD\ \(1\).woff2");
+}
+
+@font-face {
+  font-family: medium;
+  src: url("./Fonts/6594259965ca848a371eee1b_MABRYPRO-MEDIUM.woff2");
+}
+@font-face {
+  font-family: light;
+  src: url("./Fonts/6594259965ca848a371eee1c_MABRYPRO-LIGHT.woff2");
+}
+
+.bold {
+  font-family: bold;
+}
+.medium {
+  font-family: medium;
+}
+.light {
+  font-family: light;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.page1-part1::-webkit-scrollbar {
+  display: none;
+}
