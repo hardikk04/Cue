@@ -42,3 +42,7 @@ html {
 .page1-part1::-webkit-scrollbar {
   display: none;
 }
+
+.page1-part2-center > img {
+  object-position: 50% 0%;
+}
