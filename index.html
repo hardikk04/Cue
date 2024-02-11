@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav
-      class="bold flex justify-between items-center w-full pt-[1vw] px-[2vw] pb-[1vw] uppercase bg-[#FFF9EC] text-[#FF3227] font-[700] relative z-10"
+      class="bold flex fixed top-0 justify-between items-center w-full pt-[1vw] px-[2vw] pb-[1vw] uppercase bg-[#FFF9EC] text-[#FF3227] font-[700] z-[100]"
     >
       <h3>home</h3>
       <img
@@ -26,6 +26,9 @@
         />
       </div>
     </nav>
+    <div
+      class="loader w-full h-[100vh] bg-[#FF3227] absolute top-0 left-0 z-[90]"
+    ></div>
     <div class="main bg-[#FFF9EC]">
       <div class="page1 min-h-[100vh] w-full relative">
         <div
@@ -77,7 +80,7 @@
             />
           </div>
           <div
-            class="page1-part2-center h-[100vh] w-[26%] overflow-hidden mt-[15vw]"
+            class="page1-part2-center h-[100vh] w-[26%] overflow-hidden mt-[15vw] relative"
           >
             <img
               class="h-full w-full object-cover scale-[2]"
@@ -99,8 +102,43 @@
               alt=""
             />
           </div>
+          <h3
+            class="text-[#FF3227] absolute bottom-[-17%] left-[50%] -translate-x-[50%] font-[500] text-[1vw] bold"
+          >
+            CUE THE MAGIC
+          </h3>
         </div>
       </div>
+      <div
+        class="page2 h-[100vh] w-full flex flex-col justify-center items-center pt-[20vw] relative"
+      >
+        <img
+          class="h-[10vh] object-cover relative"
+          src="https://assets-global.website-files.com/6594259965ca848a371eed8f/6594259965ca848a371eee16_logo%20shorter.svg"
+          alt=""
+        />
+
+        <div class="page2-mid flex items-center gap-5 mt-[2vw] relative">
+          <h1 class="medium text-[#FF3227] text-[8vw] leading-none">THE</h1>
+          <img class="object-cover h-[5vw]" src="./eyes.webp" alt="" />
+        </div>
+        <h1
+          class="medium text-[#FF3227] text-[8vw] leading-none mt-[2vw] relative"
+        >
+          APPLAUSE
+        </h1>
+      </div>
+      <div class="page3 h-[40vh] w-full medium p-12">
+        <span class="pr-[6vw] text-[#FF3227] relative top-[-.8vw]"
+          >CUE WIGS</span
+        >
+        <span class="page3-span2 text-[2.45vw] leading-none text-[#F0DFD1]">
+          A CULMINATION OF DECADES OF EXPERIENCE BY OUR CUE WORLD-CLASS TEAM,
+          THAT MATERIALIZES IN A FLAWLESS PIECE OF WEARABLE ART THAT DISAPPEARS
+          FROM YOUR THOUGHTS THE SECOND IT’S ON YOUR HEAD.
+        </span>
+      </div>
+      <div class="page4 h-[100vh] w-full"></div>
     </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
